@@ -1,0 +1,7 @@
+{
+  "app2": {
+    "artifactId": "app2",
+    "installationId": "foo",
+    "url": "http://localhost:3002/remoteEntry.js"
+  }
+}

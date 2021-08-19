@@ -1,0 +1,24 @@
+{
+  "zones": [
+    {
+      "zone": "app2",
+      "id": "app2"
+    },
+    {
+      "zone": "app3",
+      "id": "app3"
+    }
+  ],
+  "importmaps": {},
+  "installations": [
+    {
+      "installationId": "app3i",
+      "artifactId": "app3",
+      "baseUrl": "http://localhost:3003",
+      "zone": "app3",
+      "version": "0.0.0",
+      "fileName": "app3-index.js"
+    }
+  ],
+  "ff": { "flags": {}, "params": {} }
+}
