@@ -35,11 +35,12 @@ const App = () => {
 
   return (
     <div>
-      <h1>Basic Host-Remote</h1>
+      <h1>Basic Host-Remote [App1]</h1>
       <button onClick={setApp2}>Load App 2 Widget</button>
       <button onClick={setApp3}>Load App 3 Widget</button>
-      <h2>App 1</h2>
-      <Component artifact={system.scope} module={system.module} />
+      <p>
+        <Component artifact={system.scope} module={system.module} />
+      </p>
     </div>
   );
 }
