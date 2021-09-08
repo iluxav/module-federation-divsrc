@@ -1,0 +1,7 @@
+{
+  "app3": {
+    "artifactId": "app3",
+    "installationId": "app3",
+    "url": "http://localhost:3003/app3-index.js"
+  }
+}

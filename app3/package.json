@@ -13,12 +13,13 @@
     "webpack-dev-server": "3.11.2"
   },
   "scripts": {
-    "start": "webpack-cli serve",
-    "build": "webpack --mode production",
-    "serve": "serve dist -p 3003 --cors",
+    "start": "webpack-cli serve && npm run build",
+    "build": "npm run clean && webpack -w",
     "clean": "rm -rf dist"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   }

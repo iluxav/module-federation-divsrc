@@ -29,9 +29,18 @@ module.exports = {
           presets: ["@babel/preset-react"],
         },
       },
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
     ],
   },
   plugins: [
+    new ModuleFederationPlugin({
+      name: "host",
+      library: {type: "var", name: "host"},
+      shared: {react: {singleton: true}, "react-dom": {singleton: true}, "lodash": {singleton: true}},
+    }),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
     }),

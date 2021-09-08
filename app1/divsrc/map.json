@@ -10,15 +10,6 @@
     }
   ],
   "importmaps": {},
-  "installations": [
-    {
-      "installationId": "app3i",
-      "artifactId": "app3",
-      "baseUrl": "http://localhost:3003",
-      "zone": "app3",
-      "version": "0.0.0",
-      "fileName": "app3-index.js"
-    }
-  ],
+  "installations": [],
   "ff": { "flags": {}, "params": {} }
 }
